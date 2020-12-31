@@ -44,7 +44,7 @@
             // Notify
             // 
             this.Notify.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify.Icon")));
-            this.Notify.Text = "FocusForce";
+            this.Notify.Text = "SpeakerKeeper";
             this.Notify.Visible = true;
             this.Notify.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Notify_Click);
             // 
