@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{804313F2-B5BD-44E5-9CA4-3646B1B99810}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakerKeeper", "SpeakerKeeper\SpeakerKeeper.csproj", "{756E7162-A066-4E77-91C7-01DEE7963708}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B3894F5-4FCB-457F-98E8-7B8D7DF36555} = {6B3894F5-4FCB-457F-98E8-7B8D7DF36555}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dllpp", "Dllpp\Dllpp.vcxproj", "{6B3894F5-4FCB-457F-98E8-7B8D7DF36555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756E7162-A066-4E77-91C7-01DEE7963708}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{756E7162-A066-4E77-91C7-01DEE7963708}.Debug|x86.Build.0 = Debug|Any CPU
+		{756E7162-A066-4E77-91C7-01DEE7963708}.Release|x86.ActiveCfg = Release|Any CPU
+		{756E7162-A066-4E77-91C7-01DEE7963708}.Release|x86.Build.0 = Release|Any CPU
+		{6B3894F5-4FCB-457F-98E8-7B8D7DF36555}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B3894F5-4FCB-457F-98E8-7B8D7DF36555}.Debug|x86.Build.0 = Debug|Win32
+		{6B3894F5-4FCB-457F-98E8-7B8D7DF36555}.Release|x86.ActiveCfg = Release|Win32
+		{6B3894F5-4FCB-457F-98E8-7B8D7DF36555}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7094DE-EDC2-4CE4-866B-85D8AB0F48CA}
+	EndGlobalSection
+EndGlobal
